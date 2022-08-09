@@ -42,7 +42,8 @@ app.get("/", function (req, res) {
 
 app.get('/recentChat', function (req, res) {
     res.sendFile(publicPath + '/recentChat.html');
-    
+}); 
+
 app.get('/t1', function (req, res) {
     res.sendFile(publicPath + '/t1.html');
 });
