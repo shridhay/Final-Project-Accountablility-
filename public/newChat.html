@@ -70,10 +70,10 @@ let buttons = document.querySelectorAll(".choice")
 
 buttons.forEach((element)  => {
     element.addEventListener('click', function() {
-        if (element.classList.contains('active')) {
-            element.classList.remove('active');
+        if (element.classList.contains('selected')) {
+            element.classList.remove('selected');
         } else {
-            element.classList.add('active');
+            element.classList.add('selected');
         }
     })
 });

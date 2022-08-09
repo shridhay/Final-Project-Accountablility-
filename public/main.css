@@ -73,36 +73,21 @@ button:hover{
   
 }
 
-
 .navbar {
-  overflow: hidden;
-  background-color: #99ccff8c;
-  bottom: 0;
-  width: 100%;
+  margin-top: 90px;
+  background: rgba(47, 142, 230, 0.2);
+  border-radius: 25px;
 }
 
-.navbar a {
-  float: left;
-  display: block;
-  color: #f2f2f2;
-  text-align: center;
-  padding: 14px 16px;
-  text-decoration: none;
-  font-size: 17px;
+.nav {
+  padding: 10px 20px;
+  opacity: 40%;
 }
 
-.navbar a:hover {
-  background: #f1f1f1;
-  color: black;
+#journal {
+  padding-left: 40px;
 }
 
-.navbar a.active {
-  background-color: white;
-  color: white;
-}
 
-.main {
-  padding: 16px;
-  margin-bottom: 30px;
-}
+
 

@@ -48,7 +48,7 @@ body {
     padding: 8px;
 }
 
-.active {
+.selected {
     background: rgba(47, 142, 229, 0.4);
 }
 
@@ -66,4 +66,8 @@ body {
     border-radius: 30px;
     border: none;
 }
+
+#chat {
+    opacity: 100%;
+  }
 

@@ -1,3 +1,5 @@
+
+
 var num_prompts = 20
 var NumberOfWords = 28
 
@@ -90,5 +92,6 @@ var isEmpty = function(entry){
       guestMessages.printMessages();
     }
 }
+
 
 
