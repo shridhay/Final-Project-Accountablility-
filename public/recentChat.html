@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html>
+<head> 
+    <meta name = "viewport" content = "width = device-width, initial-scale = 1.0">
+    <link rel = "stylesheet" type = "text/css" href = "">
+</head>
+
+<body>
+    <div id = "top">
+        <img src = "imgs/back.png">
+        <input type = "search" value = "Search">
+    </div>
+
+    <div id = "chat">
+        <h2> RECENT CHAT </h2>
+
+        <div id = "filters">
+            <button class = "btn active" onclick = "filterSelection('pro')"> professional </button>
+            <button class = "btn active" onclick = "filterSelection('peer')"> peer </button>
+            <button class = "peer btn" onclick = "filterSelection('major')"> major </button>
+            <button class = "peer btn active" onclick = "filterSelection('college')"> college </button>
+            <button class = "peer btn" onclick = "filterSelection('year')"> year </button>
+            <button class = "btn active" onclick = "filterSelection('anon')"> anonymous </button>
+            <button class = "btn" onclick = "filterSelection('advisor')"> advisor </button>
+        </div>
+
+        <!-- source: https://www.w3schools.com/howto/howto_js_filter_elements.asp -->
+        <div id = "filtered-chats">
+            
+            <div class = "filterItems pro">
+                <img src = "imgs/pro.png"> 
+                <div class = "text">
+                    <p class = "name"> Dr.Kar </p>
+                    <p class ="description"> Psychologist, PhD, LP</p>
+                </div>
+            </div>
+
+            <div class = "filterItems anon major college">
+                <img src = "imgs/anon.png"> 
+                <div class = "text">
+                    <p class = "name"> Anonymous User </p>
+                    <p class ="description"> Major: Computer Science </p>
+                </div>
+            </div>
+
+            <div class = "filterItems peer year college">
+                <img src = "imgs/peer.png"> 
+                <div class = "text">
+                    <p class = "name"> Kai Mayer </p>
+                    <p class ="description"> Major: Biology </p>
+                    <p class ="description"> Year: Class of 2024 </p>
+                </div>
+            </div>
+
+        </div>
+
+        <a href="newChat.html"> <img src="imgs/new_chat.png"> </a>
+
+        <div id = "nav-bar"> 
+            <img id = "journal" class = "nav" src = "imgs/journal.png">
+            <img id = "chat" class = "nav" src = "imgs/chat.png">
+            <img id = "calendar" class = "nav" src = "imgs/calendar.png">
+            <img id = "user" class = "nav" src = "imgs/user.png">
+        </div>
+
+    </div>
+
+</body>
+</html>
