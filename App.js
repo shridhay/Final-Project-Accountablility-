@@ -42,7 +42,8 @@ app.get("/", function (req, res) {
 
 app.get('/recentChat', function (req, res) {
     res.sendFile(publicPath + '/recentChat.html');
-    
+}); 
+
 app.get('/t1', function (req, res) {
     res.sendFile(publicPath + '/t1.html');
 });
@@ -56,6 +57,6 @@ app.get('/t3', function (req, res) {
 });
 
 //run this server by entering "node App.js" using your command line. 
-   app.listen(port, () => {
-     console.log(`Server is running on http://${host}:${port}`);
-   });
+app.listen(port, () => {
+    console.log(`Server is running on http://${host}:${port}`);
+  });
