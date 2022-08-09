@@ -40,11 +40,11 @@ app.get("/", function (req, res) {
 
 /** You can add your own URLS here **/
 app.get('/t1', function (req, res) {
-    res.sendFile(publicPath + '/t1/index.html');
+    res.sendFile(publicPath + '/t1.html');
 });
 
 app.get('/t2', function (req, res) {
-    res.sendFile(publicPath + '/t2/index.html');
+    res.sendFile(publicPath + '/t2.html');
 });
 
 app.get('/t3', function (req, res) {
