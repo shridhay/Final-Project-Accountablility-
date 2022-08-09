@@ -3,6 +3,7 @@
 <head> 
     <meta name = "viewport" content = "width = device-width, initial-scale = 1.0">
     <link rel = "stylesheet" type = "text/css" href = "chat.css">
+    <link rel = "stylesheet" type = "text/css" href = "main.css">
 
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -49,12 +50,14 @@
         <input id = "send" type = "submit" value = "Send">
     </div>
 
-    <div id = "nav-bar"> 
-        <img id = "journal" class = "nav" src = "imgs/journal.png">
-        <img id = "chat" class = "nav" src = "imgs/chat.png">
-        <img id = "calendar" class = "nav" src = "imgs/calendar.png">
-        <img id = "user" class = "nav" src = "imgs/user.png">
-    </div>
+    
+    <div class="navbar">
+        <a href="/"><img id = "journal" class = "nav" src = "imgs/journal.png"></a>
+        <a href="/recentChat" class="active"><img id = "chat" class = "nav" src = "imgs/chat.png"></a>
+        <a href=""><img id = "calendar" class = "nav" src = "imgs/calendar.png"></a>
+        <a><img id = "user" class = "nav" src = "imgs/user.png"></a>
+      </div>
+      
 
 </body>
 </html>
