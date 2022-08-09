@@ -1,45 +1,38 @@
-<h1>Generate a journal prompt</h1>
-<script src="myjavascript.js"></script>
-<head>
-  <link rel="stylesheet" href="main.css">
-</head>
-
-<FORM NAME="WordForm">  
-<INPUT TYPE=TEXT NAME="WordBox" id="wordbox"><BR>
-<INPUT TYPE=BUTTON VALUE="Generate" onClick="PickRandomWord(document.WordForm);" id="button">
-</FORM>
-
-
+<!DOCTYPE html>
 <html>
 <head>
-    <title></title>
+  <title>Task 1</title>
+
+  <link href="https://fonts.googleapis.com/css?family=Fira+Sans" rel="stylesheet">
+  <!-- let's include the css file for bootstrap, then our custom css -->
+  <link rel="stylesheet" type="text/css" href="/vendors/bootstrap/css/bootstrap.css" />
+  <link rel="stylesheet" type="text/css" href="/css/main.css" />
+  
+  <!-- let's also include these jquery scripts. -->
+  <script src="/vendors/jquery/jquery-3.3.1.min.js"></script>
+  <script src="/vendors/jquery-ui/jquery-ui.min.js"></script>
 
 
-<link rel="stylesheet" type="text/css" href="css/style.css">
-<link href='https://fonts.googleapis.com/css?family=Roboto:400,300italic,300,100italic,100,400italic,500,500italic,700' rel='stylesheet' type='text/css'>
-<link href='https://fonts.googleapis.com/css?family=Montserrat' rel='stylesheet' type='text/css'>
 </head>
+
 <body>
-
-    <div id = "journal">
-     
-          <div class = "comments">
-                <textarea id = "content" cols = "64" rows = "3" placeholder = "Start your journal entry here"></textarea>
-                <button id = "submit" onclick = "isEmpty();clearDiv();" style="margin-top: 20px;">Submit</button>
-          </div>
+  <div class="container">
+    <div class="row">
+      <div class="col-12">
+        <h3>Project 3: Programming Practice</h3>
+        <h4> By Hridhay Suresh </h4> 
+        <ul class="list-group">
+          <li class="list-group-item"><a href="/t1/1a/">Task 1a</a></li>
+          <li class="list-group-item"><a href="/t1/1b/">Task 1b</a></li>
+          <li class="list-group-item"><a href="/t2">Task 2</a></li>
+          <li class="list-group-item"><a href="/t3">Task 3</a></li>
+          <li class="list-group-item"><a href="/t4">Task 4</a></li>
+          <li class="list-group-item"><a href="/t5">Task 5</a></li>
+          <li class="list-group-item"><a href="/t6">Task 6</a></li>
+          <li class="list-group-item"><a href="/t7">Task 7</a></li>
+        </ul>
+      </div>
     </div>
-
-    <div id = "entries">
-          <h1>Journal Entries</h1>
-          <ul>
-            <div id = "comment-feed">
-              <li id = "first-entry">
-
-              </li>
-            </div>
-          </ul>
-    </div>
-
-
+  </div>
 </body>
 </html>
