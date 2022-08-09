@@ -1,0 +1,73 @@
+body { 
+    margin-left: 5%;
+    margin-right: 5%;
+    background-color: white;
+}
+
+#big-title { 
+    margin-top: 30px;
+    margin-bottom: 30px;
+    font-size: 18pt;
+    font-family: 'Inter';
+    line-height: 24px;
+    letter-spacing: 0.20em;  
+    text-align: left;
+}
+
+#chat-selections { 
+    margin-bottom: 20px;
+}
+
+.title {
+    margin-bottom: 15px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 18px;
+}
+
+#user-selections {
+    margin-bottom: 20px;
+}
+
+#other-selections {
+    margin-bottom: 40px;
+}
+
+.choices { 
+    font-family: 'Inter';
+    font-weight: 700;
+    font-size: 11px;
+    line-height: 13px;
+}
+.choice {
+    background: rgba(217, 217, 217, 0.4);
+    border-radius: 90px;
+    border: none;
+    padding: 8px;
+}
+
+.selected {
+    background: rgba(47, 142, 229, 0.4);
+}
+
+#send {
+    margin-bottom: 30px;
+    padding: 10px 30px;
+    float: right;
+
+    font-family: 'Inter';
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 19px;
+
+    background: rgba(47, 142, 230, 0.2);
+    border-radius: 30px;
+    border: none;
+}
+
+#chat {
+    opacity: 100%;
+  }
+

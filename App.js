@@ -39,6 +39,10 @@ app.get("/", function (req, res) {
 //depending on what url extension the user navigates to, send them the respective html file. 
 
 /** You can add your own URLS here **/
+
+app.get('/recentChat', function (req, res) {
+    res.sendFile(publicPath + '/recentChat.html');
+    
 app.get('/t1', function (req, res) {
     res.sendFile(publicPath + '/t1.html');
 });
