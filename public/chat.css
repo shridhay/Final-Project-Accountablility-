@@ -157,6 +157,5 @@
   }
   
   .btn.active {
-    background-color: #666;
-    color: white;
+    background: rgba(47, 142, 229, 0.4);
   }
