@@ -126,8 +126,14 @@ app.get('/t7/f', function (req, res) {
 
 
 //run this server by entering "node App.js" using your command line. 
+<<<<<<< HEAD
    app.listen(port, () => {
      console.log(`Server is running on http://${host}:${port}`);
    });
 
 
+=======
+app.listen(port, () => {
+    console.log(`Server is running on http://${host}:${port}`);
+  });
+>>>>>>> main
