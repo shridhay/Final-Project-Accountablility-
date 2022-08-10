@@ -10,22 +10,34 @@
       overflow-y: auto;
     }
 
+    #top {
+        margin: 5% 5% 0 5%;
+        position: absolute;
+        height: 10px;
+    }
+
     .navbar {
       margin: 5% 5% 0 5%;
+    }
+
+    #user {
+        opacity: 100;
     }
 
     #journal {
        margin-left: 15px;
     }
-
 </style>
 
 </head>
 
 <body>
+    <div id = "top">
+        <a href = "index.html" > <img src = "imgs/back.png"> </a>
+     </div>
 
   <div id = background>
-    <img  src = "imgs/home.png">
+    <img  src = "imgs/profile.png">
   </div>
 
 
@@ -33,7 +45,7 @@
       <a href="journal.html"><img id = "journal" class = "nav" src = "imgs/journal.png"></a>
       <a href="recentChat.html" class="active"><img id = "chat" class = "nav" src = "imgs/chat.png"></a>
       <a href="t2"><img id = "calendar" class = "nav" src = "imgs/calendar.png"></a>
-      <a href = "profile.html"><img id = "profile" class = "nav" src = "imgs/user.png"></a>
+      <a><img id = "user" class = "nav" src = "imgs/user.png"></a>
     </div>
 
    

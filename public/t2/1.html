@@ -2,10 +2,12 @@
 <html>
 <head>
 	<title>Events</title>
-
+    <meta name = "viewport" content = "width = device-width, initial-scale = 1.0">
   
 
   <link href="https://fonts.googleapis.com/css?family=Fira+Sans" rel="stylesheet">
+  <link rel = "stylesheet" type = "text/css" href = "../main.css">
+
   <!-- let's include the css file for bootstrap, then our custom css -->
   <link rel="stylesheet" type="text/css" href="/vendors/bootstrap/css/bootstrap.css" />
   <link rel="stylesheet" type="text/css" href="/t2/temp.css" />
@@ -17,9 +19,12 @@
   <link href="/t2/css/mobiscroll.javascript.min.css" rel="stylesheet" />
   <script src="/t2/js/mobiscroll.javascript.min.js"></script> 
 
+  
+
 </head>
 
 <body>
+    <a href = "../index.html" > <img id = "back" src = "../imgs/back.png"> </a>
 
   <div id="background">
     <div id="chartDiv"></div>
@@ -109,6 +114,12 @@
         </div>
     </div>
 </div>
+<div class="navbar">
+    <a href="../journal.html"><img id = "journal" class = "nav" src = "../imgs/journal.png"></a>
+    <a href="../recentChat.html" class="active"><img id = "chat" class = "nav" src = "../imgs/chat.png"></a>
+    <a href="t2"><img id = "calendar" class = "nav" src = "../imgs/calendar.png"></a>
+    <a href = "../profile.html"><img id = "user" class = "nav" src = "../imgs/user.png"></a>
+  </div>
 
   <script type="text/javascript">
     mobiscroll.setOptions({

@@ -1,3 +1,13 @@
+body { 
+    margin-left: 5%;
+    margin-right: 5%;
+    background-color: white;
+    margin-top: 5%;
+  }
+
+#back {
+    margin-bottom: 30px;
+}
 .event-color-c {
     display: flex;
     margin: 16px;
@@ -59,4 +69,8 @@
 
 .crud-color-c.selected .crud-color:before {
     display: block;
+}
+
+#calendar {
+    opacity: 100;
 }
