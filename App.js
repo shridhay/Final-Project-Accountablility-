@@ -40,23 +40,94 @@ app.get("/", function (req, res) {
 
 /** You can add your own URLS here **/
 
-app.get('/recentChat', function (req, res) {
-    res.sendFile(publicPath + '/recentChat.html');
-}); 
-
-app.get('/t1', function (req, res) {
-    res.sendFile(publicPath + '/t1.html');
+app.get('/t2/2', function (req, res) {
+    res.sendFile(publicPath + '/t2/2.html');
+});
+app.get('/t2/3', function (req, res) {
+    res.sendFile(publicPath + '/t2/3.html');
+});
+app.get('/t2/4', function (req, res) {
+    res.sendFile(publicPath + '/t2/4.html');
+});
+app.get('/t2/5', function (req, res) {
+    res.sendFile(publicPath + '/t2/5.html');
 });
 
+
+app.get('/t1/1a', function (req, res) {
+    res.sendFile(publicPath + '/t1/1a.html');
+});
+app.get('/t1/1b', function (req, res) {
+    res.sendFile(publicPath + '/t1/1b.html');
+});
 app.get('/t2', function (req, res) {
-    res.sendFile(publicPath + '/t2.html');
+    res.sendFile(publicPath + '/t2/1.html');
 });
-
 app.get('/t3', function (req, res) {
     res.sendFile(publicPath + '/t3.html');
 });
+app.get('/t4', function (req, res) {
+    res.sendFile(publicPath + '/t4.html');
+});
+app.get('/t5', function (req, res) {
+    res.sendFile(publicPath + '/t5.html');
+});
+
+
+// -- Task 6 Navigation -- //
+app.get('/t6', function (req, res) {
+    res.sendFile(publicPath + '/t6/index.html');
+});
+app.get('/t6/a', function (req, res) {
+    res.sendFile(publicPath + '/t6/a.html');
+});
+app.get('/t6/b', function (req, res) {
+    res.sendFile(publicPath + '/t6/b.html');
+});
+app.get('/t6/c', function (req, res) {
+    res.sendFile(publicPath + '/t6/c.html');
+});
+app.get('/t6/d', function (req, res) {
+    res.sendFile(publicPath + '/t6/d.html');
+});
+app.get('/t6/e', function (req, res) {
+    res.sendFile(publicPath + '/t6/e.html');
+});
+app.get('/t6/f', function (req, res) {
+    res.sendFile(publicPath + '/t6/f.html');
+});
+
+// -- Task 7 Navigation -- //
+app.get('/t7', function (req, res) {
+    res.sendFile(publicPath + '/t7/index.html');
+});
+app.get('/t7/a', function (req, res) {
+    res.sendFile(publicPath + '/t7/a.html');
+});
+app.get('/t7/b', function (req, res) {
+    res.sendFile(publicPath + '/t7/b.html');
+});
+app.get('/t7/c', function (req, res) {
+    res.sendFile(publicPath + '/t7/c.html');
+});
+app.get('/t7/d', function (req, res) {
+    res.sendFile(publicPath + '/t7/d.html');
+});
+app.get('/t7/e', function (req, res) {
+    res.sendFile(publicPath + '/t7/e.html');
+});
+app.get('/t7/f', function (req, res) {
+    res.sendFile(publicPath + '/t7/f.html');
+});
+
+
+
+
+
 
 //run this server by entering "node App.js" using your command line. 
    app.listen(port, () => {
      console.log(`Server is running on http://${host}:${port}`);
    });
+
+
